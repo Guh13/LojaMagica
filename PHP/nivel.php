@@ -3,10 +3,10 @@
 session_start();
 
 // Conecte-se ao banco de dados
-$servername = "containers-us-west-93.railway.app";
+$servername = "localhost";
 $username = "root";
-$password = "SelQxlRPUQ8ac3XduxP4";
-$dbname = "railway";
+$password = "";
+$dbname = "magiamistica";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
